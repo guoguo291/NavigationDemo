@@ -7,4 +7,5 @@
     <string name="str_to_register">登录注册界面</string>
     <string name="str_to_forget">登录忘记密码界面</string>
     <string name="str_agreement">用户协议界面</string>
+    <string name="str_to_agreement">打开用户协议界面</string>
 </resources>

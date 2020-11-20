@@ -38,7 +38,7 @@
         android:id="@+id/btn_toAgrementPage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/str_to_forget"
+        android:text="@string/str_to_agreement"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btn_toForgetPage" />
