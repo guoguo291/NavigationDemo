@@ -25,5 +25,9 @@ class LoginFragment:BaseFragment() {
         btn_toRegisterPage.setOnClickListener {
             navController.navigate(R.id.action_login_fragment_to_registerFragment)
         }
+        btn_toAgrementPage.setOnClickListener {
+            navController.navigate(R.id.action_login_fragment_to_agreementActivity)
+        }
+
     }
 }

@@ -13,6 +13,9 @@
         <action
             android:id="@+id/action_login_fragment_to_registerFragment"
             app:destination="@id/registerFragment" />
+        <action
+            android:id="@+id/action_login_fragment_to_agreementActivity"
+            app:destination="@id/agreementActivity" />
     </fragment>
     <fragment
         android:id="@+id/forget_fragment"
@@ -22,4 +25,9 @@
         android:name="com.guoj.navigationdemo.fragment.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" />
+    <activity
+        android:id="@+id/agreementActivity"
+        android:name="com.guoj.navigationdemo.activity.AgreementActivity"
+        android:label="AgreementActivity" />
+
 </navigation>
