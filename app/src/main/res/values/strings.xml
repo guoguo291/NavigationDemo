@@ -4,4 +4,6 @@
     <string name="hello_register_fragment">Hello register fragment</string>
     <string name="str_forget">忘记密码</string>
     <string name="str_login">登陆</string>
+    <string name="str_to_register">登录注册界面</string>
+    <string name="str_to_forget">登录忘记密码界面</string>
 </resources>

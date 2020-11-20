@@ -6,7 +6,14 @@
     app:startDestination="@id/login_fragment">
     <fragment
         android:id="@+id/login_fragment"
-        android:name="com.guoj.navigationdemo.fragment.LoginFragment" />
+        android:name="com.guoj.navigationdemo.fragment.LoginFragment" >
+        <action
+            android:id="@+id/action_login_fragment_to_forget_fragment"
+            app:destination="@id/forget_fragment" />
+        <action
+            android:id="@+id/action_login_fragment_to_registerFragment"
+            app:destination="@id/registerFragment" />
+    </fragment>
     <fragment
         android:id="@+id/forget_fragment"
         android:name="com.guoj.navigationdemo.fragment.ForgetFragment" />
