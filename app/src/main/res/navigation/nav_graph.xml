@@ -9,10 +9,18 @@
         android:name="com.guoj.navigationdemo.fragment.LoginFragment" >
         <action
             android:id="@+id/action_login_fragment_to_forget_fragment"
-            app:destination="@id/forget_fragment" />
+            app:destination="@id/forget_fragment"
+            app:enterAnim="@anim/slide_from_right_to_left_in"
+            app:exitAnim="@anim/slide_from_right_to_left_out"
+            app:popEnterAnim="@anim/slide_from_left_to_right_in"
+            app:popExitAnim="@anim/slide_from_left_to_right_out"/>
         <action
             android:id="@+id/action_login_fragment_to_registerFragment"
-            app:destination="@id/registerFragment" />
+            app:destination="@id/registerFragment"
+            app:enterAnim="@anim/slide_from_right_to_left_in"
+            app:exitAnim="@anim/slide_from_right_to_left_out"
+            app:popEnterAnim="@anim/slide_from_left_to_right_in"
+            app:popExitAnim="@anim/slide_from_left_to_right_out"/>
         <action
             android:id="@+id/action_login_fragment_to_agreementActivity"
             app:destination="@id/agreementActivity" />
